@@ -1,0 +1,59 @@
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0 auto;
+  height: 30px;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+
+li {
+  margin-right: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:focus {
+  color: blue;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: white;
+  position: fixed;
+  vertical-align: middle;
+  z-index: 1;
+}
+
+.logoHeader {
+  width: 200px;
+  height: 30px;
+  margin-left: 80px;
+}
+
+linko:hover {
+  color: blue;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a .Contact {
+  margin-right: 130px;
+}
+
+.lastButton {
+  margin-right: 50px;
+}

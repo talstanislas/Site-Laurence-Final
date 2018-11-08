@@ -1,0 +1,23 @@
+.firstPic {
+  width: 900px;
+  height: 450px;
+}
+
+.secondRowPic {
+  margin-bottom: 10px;
+  width: 900px;
+  height: 450px;
+}
+
+.thirdRow {
+  margin-bottom: 100px;
+}
+
+.thirdRowPic {
+  width: 900px;
+  height: 450px;
+}
+
+.campagneContainer {
+  justify-content: center;
+}

@@ -1,0 +1,196 @@
+.firstRow1 {
+  margin-right: 0;
+}
+
+.contactPicture {
+  margin-top: 90px;
+  margin-bottom: 8px;
+  opacity: 1;
+  width: 900px;
+  height: 450px;
+  text-align: center;
+}
+
+.contactPicture1 {
+  margin-top: 90px;
+  margin-bottom: 8px;
+  opacity: 1;
+  width: 900px;
+  height: 450px;
+  text-align: center;
+}
+
+.contactPicture:hover {
+  opacity: 0.3;
+}
+
+.overlay {
+  opacity: 1;
+  height: 1px;
+}
+
+.campagneTitle2 {
+  position: relative;
+  left: 50%;
+  top: -300px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  font-size: 30px;
+  color: black;
+  z-index: -1;
+  text-decoration: none;
+}
+
+.campagneDescription2 {
+  position: relative;
+  left: 50%;
+  top: -270px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: black;
+  z-index: -1;
+  font-size: 20px;
+  width: 550px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.campagneDescription3 {
+  position: relative;
+  left: 50%;
+  top: -270px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: black;
+  z-index: -1;
+  font-size: 20px;
+  width: 600px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.campagneTitlePetit {
+  position: relative;
+  left: 50%;
+  top: -200px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  font-size: 30px;
+  color: black;
+  z-index: -1;
+  text-decoration: none;
+}
+
+.campagneDescriptionPetit {
+  position: relative;
+  left: 50%;
+  top: -160px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: black;
+  z-index: -1;
+  font-size: 20px;
+  width: 550px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.firstRow:hover .overlay {
+  opacity: 1;
+}
+
+.w-100 {
+  width: 80% !important;
+  margin-top: 90px;
+  padding-bottom: 10px;
+}
+.w-100:hover {
+  opacity: 0.3;
+}
+.w-101 {
+  width: 80% !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 2px solid black;
+}
+
+.lastImage {
+  margin-bottom: 100px;
+}
+
+@media screen AND (max-width: 1200px) {
+  .campagneTitle2 {
+    font-size: 23px;
+    top: -300px;
+  }
+  .campagneTitle {
+    font-size: 23px;
+  }
+  .campagneTitlePetit {
+    font-size: 21px;
+    top: -130px;
+  }
+  .campagneDescription2 {
+    font-size: 18px;
+  }
+  .campagneDescription3 {
+    font-size: 18px;
+  }
+  .campagneDescriptionPetit {
+    font-size: 16px;
+    top: -110px;
+  }
+}
+@media screen AND (max-width: 992px) {
+  .campagneTitle2 {
+    font-size: 23px;
+    top: -220px;
+  }
+  .campagneTitle {
+    font-size: 23px;
+    top: -220px;
+  }
+  .campagneTitlePetit {
+    font-size: 21px;
+    top: -80px;
+  }
+  .campagneDescription2 {
+    font-size: 18px;
+    top: -180px;
+    width: 400px;
+  }
+  .campagneDescription3 {
+    font-size: 18px;
+    top: -180px;
+    width: 400px;
+  }
+  .campagneDescriptionPetit {
+    display: none;
+  }
+}
+
+@media screen AND (max-width: 768px) {
+  .campagneTitle2 {
+    display: none;
+  }
+  .campagneTitle {
+    display: none;
+  }
+  .campagneTitlePetit {
+    display: none;
+  }
+  .campagneDescription2 {
+    display: none;
+  }
+  .campagneDescription3 {
+    display: none;
+  }
+  .campagneDescriptionPetit {
+    display: none;
+  }
+  .w-100:hover {
+    opacity: 1;
+  }
+}
